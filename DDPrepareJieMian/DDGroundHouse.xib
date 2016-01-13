@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDGroundHouse">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsM-w2-1cJ">
+                    <rect key="frame" x="160" y="64" width="160" height="100"/>
+                    <color key="backgroundColor" red="1" green="0.3675706299" blue="0.30863822619999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="v9c-VB-378"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="学区"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qo8-zs-spN">
+                    <rect key="frame" x="0.0" y="164" width="160" height="100"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="bZ2-iL-d6N"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="楼盘"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAN-jQ-39H">
+                    <rect key="frame" x="160" y="164" width="160" height="100"/>
+                    <color key="backgroundColor" red="0.3903245192" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="eke-eR-Wss"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="其他"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUN-F7-gpD">
+                    <rect key="frame" x="0.0" y="64" width="160" height="100"/>
+                    <color key="backgroundColor" red="1" green="0.51305725520000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="oV3-2a-i71"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="路线"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="hUN-F7-gpD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3F2-Wj-SSH"/>
+                <constraint firstItem="fsM-w2-1cJ" firstAttribute="leading" secondItem="hUN-F7-gpD" secondAttribute="trailing" id="4j8-VS-uMb"/>
+                <constraint firstItem="wAN-jQ-39H" firstAttribute="top" secondItem="fsM-w2-1cJ" secondAttribute="bottom" id="JtD-v3-aDI"/>
+                <constraint firstItem="wAN-jQ-39H" firstAttribute="leading" secondItem="qo8-zs-spN" secondAttribute="trailing" id="QqR-mB-5nS"/>
+                <constraint firstItem="fsM-w2-1cJ" firstAttribute="height" secondItem="hUN-F7-gpD" secondAttribute="height" id="Svx-Wd-5h6"/>
+                <constraint firstItem="qo8-zs-spN" firstAttribute="top" secondItem="hUN-F7-gpD" secondAttribute="bottom" id="T5p-cf-U66"/>
+                <constraint firstItem="fsM-w2-1cJ" firstAttribute="width" secondItem="hUN-F7-gpD" secondAttribute="width" id="Wby-K1-ifM"/>
+                <constraint firstItem="wAN-jQ-39H" firstAttribute="height" secondItem="qo8-zs-spN" secondAttribute="height" id="acj-8h-BE2"/>
+                <constraint firstItem="fsM-w2-1cJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="hm3-1v-KIV"/>
+                <constraint firstItem="wAN-jQ-39H" firstAttribute="width" secondItem="qo8-zs-spN" secondAttribute="width" id="jfj-q4-LmI"/>
+                <constraint firstItem="qo8-zs-spN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lzZ-OT-iIs"/>
+                <constraint firstAttribute="trailing" secondItem="wAN-jQ-39H" secondAttribute="trailing" id="q8P-ac-QC0"/>
+                <constraint firstItem="hUN-F7-gpD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="we3-jf-SDW"/>
+                <constraint firstAttribute="trailing" secondItem="fsM-w2-1cJ" secondAttribute="trailing" id="xQ6-Vd-FMt"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="421" y="401"/>
+        </view>
+    </objects>
+</document>
