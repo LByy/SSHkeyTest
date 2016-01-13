@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"2222");
     DDFindHouse* fvc = [[DDFindHouse alloc]init];
     fvc.tabBarItem.title = @"推荐";
     fvc.tabBarItem.image = [UIImage imageNamed:@"file.png"];
